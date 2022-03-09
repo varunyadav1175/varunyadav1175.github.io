@@ -44,6 +44,13 @@
     })
   }
 
+  var typed = new Typed(".typing", {
+    strings: ["Coder", "Developer", "Engineer", "Multipotentialite", "Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+
   /**
    * Mobile nav toggle
    */
