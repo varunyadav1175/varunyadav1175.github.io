@@ -19,11 +19,11 @@ body::before {
   content: "";
   position: fixed;
   background: #040404 url("../img/bg.png") top right no-repeat;
-  background-size: cover;
+  background-size:contain ;
   left: 0;
   right: 0;
   top: 0;
-  height: 100vh;
+  height: 110vh;
   z-index: -1;
 }
 @media (min-width: 1024px) {
